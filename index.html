@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+  </head>
+  <body>
+    <header>
+      <h1>Ben's Web Portfolio</h1>
+    </header>
+    <nav>
+      <p>Learning HTML step-by-step</p>
+      <ul>
+        <li><a href="#about-me">About Me</a></li>
+        <li><a href="#web-development-basics">Web Development Basics</a></li>
+        <li><a href="#sample-code">Sample Code</a></li>
+        <li><a href="#weekly-schedule">Weekly Schedule</a></li>
+        <li><a href="#lab-details">Lab Details</a></li>
+        <li><a href="#contact-me">Contact Me</a></li>
+      </ul>
+    </nav>
+    <main>
+      <section id="about-me">
+        <h2>About Me</h2>
+        <figure>
+          <img
+            src="https://img.freepik.com/premium-vector/print_1150217-428.jpg"
+            width="200"
+         >
+          <figcaption>
+            This is a figure element with an image and caption.
+          </figcaption>
+        </figure>
+        <p>
+          I love web development!<br>
+          It allows me to build cool things with just code.<br>
+          HTML uses tags like &lt;div&gt; and &lt;section&gt; to organize
+          content.<br>
+        </p>
+      </section>
+      <section id="web-development-basics">
+        <h2>Web Development Basics</h2>
+        <p>
+          HTML stands for Hyper Text Markup Language. It structures content
+          using tags like <code>&lt;h1&gt;</code>, <code>&lt;p&gt;</code>, and
+          <code>&lt;img&gt;</code>.
+        </p>
+      </section>
+      <section id="sample-code">
+        <h2>Sample Code</h2>
+        <pre>
+function hello() {
+  console.log("Hello, world!");
+}
+      </pre
+        >
+        <blockquote>
+          "Web development is like magic — except it's real and you can learn
+          it."
+        </blockquote>
+      </section>
+      <section id="weekly-schedule">
+        <h2>Weekly Schedule</h2>
+        <table>
+          <thead>
+            <tr>
+              <th>Day</th>
+              <th>Activity</th>
+              <th>Time</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Monday</td>
+              <td>Lecture</td>
+              <td>10:00 AM</td>
+            </tr>
+            <tr>
+              <td>Wednesday</td>
+              <td>Lab</td>
+              <td>2:00 PM</td>
+            </tr>
+            <tr>
+              <td>Friday</td>
+              <td>Project Work</td>
+              <td>1:00 PM</td>
+            </tr>
+          </tbody>
+          <tfoot>
+            <tr>
+              <td colspan="3">
+                &copy; 2025 Ben Eastwood - All Rights Reserved
+              </td>
+            </tr>
+          </tfoot>
+        </table>
+      </section>
+      <section id="lab-details">
+        <h2>Lab Details</h2>
+        <p>
+          Lab sessions take place every Wednesday in EnGeo2203 at 2:00 PM.
+          Attendance is required.
+        </p>
+      </section>
+      <section id="contact-me">
+        <h2>Contact Me</h2>
+        <form>
+          <div>
+            <label for="name">Name:</label>
+            <br>
+            <input name="name" id="name" type="text">
+          </div>
+          <br>
+          <div>
+            <label for="email">Email:</label>
+            <br>
+            <input name="email" id="email" type="email">
+          </div>
+          <br>
+          <div>
+            <label for="color">Favorite Color:</label>
+            <br>
+            <input name="color" id="color" type="color">
+          </div>
+          <br>
+          <div>
+            <label for="birthday">Birthday:</label>
+            <br>
+            <input id="birthday" name="birthday" type="date">
+          </div>
+          <br>
+          <span>Are you enjoying this lab?</span>
+          <div>
+            <input name="is-enjoying-lab" id="is-enjoying-lab" type="radio" value="Yes">
+            <label for="is-enjoying-lab">Yes</label>
+          </div>
+          <div>
+            <input name="is-enjoying-lab" id="is-enjoying-lab" type="radio" value="No" checked>
+            <label for="is-enjoying-lab">No</label>
+          </div><br>
+          <div>
+            <label for="course">Course:</label><br>
+            <select id="course" name="course">
+              <option>IT205</option>
+              <option>IT301</option>
+              <option>IT333</option>
+            </select>
+          </div><br>
+          <div>
+            <label for="feedback">Any Feedback?</label><br>
+            <textarea id="feedback" name="feedback" cols="30" rows="5"></textarea>
+          </div><br>
+          <input type="submit">
+        </form>
+      </section>
+    </main>
+    <br><br><br><br>
+    <footer>
+      <p>Made with &hearts; and HTML.</p>
+      <p>Last updated: <time>September 2, 2025</time></p>
+    </footer>
+  </body>
+</html>
